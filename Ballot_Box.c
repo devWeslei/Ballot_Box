@@ -20,7 +20,7 @@ int main() {
 	setlocale(LC_ALL, "Portuguese");
 	
 	principal = 0;   //resetando a variavel, caso proximo usuario digite valor invalido nao considere o valor da variavel que o usuario passado deixou.
-	printf("Escolhas as opções:\n");
+	printf("Escolhas as opÃ§Ãµes:\n");
 	printf("1 - Votar.\n");
 	printf("2 - Apurar os votos.\n");
 	printf("3 - Sair.\n");
@@ -44,23 +44,23 @@ int main() {
 				
 			switch(voto1){
 				case 111:
-					printf("Você votou em Joao do Frete!\n\n");
+					printf("VocÃª votou em Joao do Frete!\n\n");
 					vere1++;
 					break;
 				case 222:
-					printf("Você votou em Maria da Pamonha!\n\n");
+					printf("VocÃª votou em Maria da Pamonha!\n\n");
 					vere2++;
 					break;
 				case 333:
-					printf("Você votou em Ze da Farmacia!\n\n");
+					printf("VocÃª votou em Ze da Farmacia!\n\n");
 					vere3++;
 					break;
 				case 444:
-					printf("Você votou Nulo!\n\n");
+					printf("VocÃª votou Nulo!\n\n");
 					nulo1++;
 					break;
 				default:
-					printf("Voto inválido!\n\n");
+					printf("Voto invÃ¡lido!\n\n");
 					flush_in();
 					setbuf(stdin,NULL);
 					break;
@@ -77,25 +77,25 @@ int main() {
 			
 			switch (voto2){
 				case 11:
-					printf("Você votou em Prefeito Dr. Zureta!\n\n");
+					printf("VocÃª votou em Prefeito Dr. Zureta!\n\n");
 					printf("obrigado por participar!\n\n");
 					pref1++;
 					voltar();
 					break;
 				case 22:
-					printf("Você votou em Prefeito Senhor Gomes!\n\n");
+					printf("VocÃª votou em Prefeito Senhor Gomes!\n\n");
 					printf("obrigado por participar!\n\n");
 					pref2++;
 					voltar();
 					break;
 				case 44:
-					printf("Você votou nulo!\n\n");
+					printf("VocÃª votou nulo!\n\n");
 					printf("obrigado por participar!\n\n");
 					nulo2++;
 					voltar();
 					break;
 				default:
-					printf("Voto inválido!\n\n");
+					printf("Voto invÃ¡lido!\n\n");
 					flush_in();
 					setbuf(stdin,NULL);
 					voltar();
@@ -105,13 +105,13 @@ int main() {
 			
 		case 2:
 			system("cls");
-			printf("Apuração para Vereador:\n");
+			printf("ApuraÃ§Ã£o para Vereador:\n");
 			printf("Vereador Joao do Frete - %i votos.\n", vere1);
 			printf("Vereador Maria da Pamonha - %i votos.\n", vere2);
 			printf("Vereador Ze da Farmacia - %i votos.\n", vere3);
 			printf("Votos nulos - %i votos\n", nulo1);
 			printf("------------------------------------\n");
-			printf("Apuração para Prefeito:\n");
+			printf("ApuraÃ§Ã£o para Prefeito:\n");
 			printf("Prefeito Dr. Zureta - %i votos.\n", pref1);
 			printf("Prefeito Senhor Gomes - %i votos.\n", pref2);
 			printf("Votos nulos - %i votos.\n", nulo2);
@@ -125,7 +125,7 @@ int main() {
 		
 		default:
 			system("cls");
-			printf("Por favor, digite uma das opções do menu...\n\n");
+			printf("Por favor, digite uma das opÃ§Ãµes do menu...\n\n");
 			setbuf(stdin,NULL);
 			voltar();
 			break;
