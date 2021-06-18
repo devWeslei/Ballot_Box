@@ -1,4 +1,5 @@
-# Ballot_Box
+# Ballot_Box   
+## Running   
 
 ![Preview-Screens](https://github.com/devWeslei/Ballot_Box/blob/main/assets/example.png)
 
