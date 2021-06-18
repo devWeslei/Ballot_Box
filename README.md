@@ -6,7 +6,7 @@
 
 ## About this Project
 
-university exercise where I simulate an Ballot box.
+university exercise that I simulate an Ballot box.
 
 
 ## Functionalities
